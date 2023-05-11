@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  /* Header */
+  header {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  .logo h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 45px;
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-right: 30px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .konten {
+    margin-top: 20px;
+  }
+  
+  .konten-teks {
+    color: #fff;
+    margin-top: 150px;
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .konten-teks h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    
+  }
+  
+  .konten-teks p {
+    font-weight: 80;
+    margin-top: 15px;
+  }
+  
+  .konten-picture {
+    text-align: center;
+  }
+  
+  .container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 80px;
+  }
+  
+  .footer-content {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content h2 {
+    font-size: 24px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  
+    .logo h1 {
+      margin-top: 0;
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    nav ul {
+      margin-right: 0;
+    }
+  
+    .konten-teks {
+      margin-top: 50px;
+    }
+  
+    .konten-teks h1 {
+      font-size: 30px;
+    }
+  
+    .konten-teks p {
+      font-size: 14px;
+    }
+  
+    .konten-picture {
+      margin-left: 0;
+    }
+
+    .container-footer {
+        padding: 10px;
+      }
+    
+      .footer-content h1 {
+        font-size: 20px;
+      }
+    
+      .footer-content p {
+        font-size: 14px;
+      }
+  }
+
+ 
+  
